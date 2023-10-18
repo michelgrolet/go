@@ -1,7 +1,6 @@
 const goLinks = {
-	'wikirandom': 'https://en.wikipedia.org/wiki/Special:Random',
-	'photographer': 'https://photographe.michelgrolet.fr',
-	// add more shortcuts as needed
+	'insta': 'https://www.instagram.com/michelgrolet.photographe/',
+	'add': 'https://github.com/MichelGrolet/go/edit/main/go-links.js',
   };
   
   function redirect() {
