@@ -16,6 +16,6 @@ const goLinks = {
 	if (redirectURL) {
 	  window.location.href = redirectURL;
 	} else {
-	  document.body.innerHTML = 'Go link not found.';
+	  window.location.href = "https://michelgrolet.fr/?msg=This+link+does+not+exist."
 	}
   }
