@@ -5,7 +5,7 @@ const goLinks = {
   };
   
   function redirect() {
-	const basePath = 'liteLinker'; // repository name
+	const basePath = 'go'; // repository name
 	let path = window.location.pathname.substr(1); // get the part after the initial slash
 	
 	if (path.startsWith(basePath)) {
