@@ -17,6 +17,7 @@ const goLinks = {
 	'profile': 'profil',
 	'edit-profile': 'https://docs.google.com/document/d/1Rw3iPQPOCEOUOB8BrgImoyNzDoYbZrSg_Z0aQieyMyg/edit?usp=sharing',
 	'edit-profil': 'edit-profile',
+	'new-profil': 'edit-profile',
 	'abs': 'https://youtu.be/8PwoytUU06g'
   };
   
