@@ -18,7 +18,9 @@ const goLinks = {
 	'edit-profile': 'https://docs.google.com/document/d/1Rw3iPQPOCEOUOB8BrgImoyNzDoYbZrSg_Z0aQieyMyg/edit?usp=sharing',
 	'edit-profil': 'edit-profile',
 	'new-profil': 'edit-profile',
-	'abs': 'https://youtu.be/8PwoytUU06g'
+	'abs': 'https://youtu.be/8PwoytUU06g',
+	'google-apprenticeship-tips': 'https://docs.google.com/document/d/1bc5fVke9FZ2FCLy5J3UGarqRV7v2R93-mVeyDSoXagA'
+	'google-swe-tips': 'https://docs.google.com/document/d/13VHGvUMRfMClncWJ1Q35vJ9eveC89n2v4wkS5Hhx6BQ'
   };
   
   function redirect() {
