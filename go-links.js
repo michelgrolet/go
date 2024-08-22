@@ -22,7 +22,9 @@ const goLinks = {
 	'new-profil': 'edit-profile',
 	'abs': 'https://youtu.be/8PwoytUU06g',
 	'google-apprenticeship-tips': 'https://docs.google.com/document/d/1bc5fVke9FZ2FCLy5J3UGarqRV7v2R93-mVeyDSoXagA',
-	'google-swe-tips': 'https://docs.google.com/document/d/13VHGvUMRfMClncWJ1Q35vJ9eveC89n2v4wkS5Hhx6BQ'
+	'google-swe-tips': 'https://docs.google.com/document/d/13VHGvUMRfMClncWJ1Q35vJ9eveC89n2v4wkS5Hhx6BQ',
+	'business-profile': 'https://www.google.com/search?q=Michel%20Grolet&stick=H4sIAAAAAAAAAONgU1IxqEg1TzExS7NIMTU3MUq1tLQyqLBINjM3N0szM0w2NDJKNE1exMrrm5mckZqj4F6Un5NaAgBSKd-COAAAAA',
+	'maps-profile': 'https://maps.app.goo.gl/C2xUWsSqeDYsvmk79'
   };
   
   function redirect() {
