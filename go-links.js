@@ -45,3 +45,29 @@ const goLinks = {
 	  window.location.href = `https://michelgrolet.fr/?msg=This+link+does+not+exist.&url=${redirectURL}`;
 	}
   }
+
+function generateLinksPage() {
+    let html = '<!DOCTYPE html><html><head><title>Go Links</title></head><body>';
+    html += '<h1>Go Links</h1><ul>';
+
+    for (const [key, url] of Object.entries(goLinks)) {
+        html += `<li><a href="${url}">${key}</a></li>`;
+    }
+
+    html += '</ul></body></html>';
+    return html;
+}
+
+const http = require('http');
+
+http.createServer((req, res) => {
+    if (req.url === '/links') {
+        res.writeHead(200, { 'Content-Type': 'text/html' });
+        res.end(generateLinksPage());
+    } else {
+        res.writeHead(404, { 'Content-Type': 'text/plain' });
+        res.end('404 Not Found');
+    }
+}).listen(80, () => {
+    console.log('Server is running at http://go.grolet.fr/');
+});
