@@ -31,20 +31,20 @@ const goLinks = {
   };
   
   function redirect() {
-	const basePath = 'go'; // repository name
-	let path = window.location.pathname.substr(1); // get the part after the initial slash
-	
-	if (path.startsWith(basePath)) {
-	  path = path.substr(basePath.length + 1); // +1 to account for the slash
-	}
-  
-	const redirectURL = goLinks[path];
-	if (redirectURL) {
-	  window.location.href = redirectURL;
-	} else {
-	  window.location.href = `https://michelgrolet.fr/?msg=This+link+does+not+exist.&url=${redirectURL}`;
-	}
-  }
+    const basePath = 'go'; // repository name
+    let path = window.location.pathname.substr(1); // get the part after the initial slash
+
+    if (path.startsWith(basePath)) {
+        path = path.substr(basePath.length + 1); // +1 to account for the slash
+    }
+
+    const redirectURL = goLinks[path];
+    if (redirectURL) {
+        window.location.href = redirectURL;
+    } else {
+        window.location.href = `https://michelgrolet.fr/?msg=This+link+does+not+exist.&url=${encodeURIComponent(path)}`;
+    }
+}
 
 function generateLinksPage() {
     let html = '<!DOCTYPE html><html><head><title>Go Links</title></head><body>';
