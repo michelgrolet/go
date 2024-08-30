@@ -29,10 +29,12 @@ const goLinks = {
 	'k': 'https://www.amazon.com/sendtokindle',
 	'kindle': 'k'
   };
-  
-  function redirect() {
+
+function redirect() {
     const basePath = 'go'; // repository name
     let path = window.location.pathname.substr(1); // get the part after the initial slash
+
+    if (path === 'links') return; // Prevent redirect on /links
 
     if (path.startsWith(basePath)) {
         path = path.substr(basePath.length + 1); // +1 to account for the slash
@@ -71,3 +73,7 @@ http.createServer((req, res) => {
 }).listen(80, () => {
     console.log('Server is running at http://go.grolet.fr/');
 });
+
+// Call redirect function on page load
+redirect();
+
