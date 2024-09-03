@@ -6,6 +6,7 @@ const goLinks = {
 	// socials
 	'insta': 'https://www.instagram.com/mi.grlt/',
 	'linkedin': 'https://www.linkedin.com/in/michel-grolet/',
+	'ln': 'linkedin',
 	// photo
 	'tarifs-photo': 'https://photographe.michelgrolet.fr/tarifs',
 	// perso misc
