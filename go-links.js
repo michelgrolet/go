@@ -7,6 +7,10 @@ const goLinks = {
 	'insta': 'https://www.instagram.com/mi.grlt/',
 	'linkedin': 'https://www.linkedin.com/in/michel-grolet/',
 	'ln': 'linkedin',
+	'twitter': 'https://x.com/MichelGrlt',
+	'x': 'twitter',
+	'github': 'https://github.com/MichelGrolet',
+	'gh': 'github',
 	// photo
 	'tarifs-photo': 'https://photographe.michelgrolet.fr/tarifs',
 	// perso misc
