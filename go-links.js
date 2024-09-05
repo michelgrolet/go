@@ -5,11 +5,11 @@ const goLinks = {
 	'edit': 'add',
 	// socials
 	'insta': 'https://www.instagram.com/mi.grlt/',
-	'linkedin': 'https://www.linkedin.com/in/michel-grolet/',
+	'linkedin': 'https://www.linkedin.com/in/michelgrolet/',
 	'ln': 'linkedin',
 	'twitter': 'https://x.com/michelgrolet',
 	'x': 'twitter',
-	'github': 'https://github.com/MichelGrolet',
+	'github': 'https://github.com/michelgrolet',
 	'gh': 'github',
 	// photo
 	'tarifs-photo': 'https://photographe.michelgrolet.fr/tarifs',
