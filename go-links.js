@@ -22,6 +22,7 @@ const goLinks = {
 	'islam': 'https://drive.google.com/file/d/172MvsrDKxzeINuGkWMYg6a7D9RMvFkHR/view?usp=sharing',
 	'profil': 'https://photos.app.goo.gl/maDYfXWnCPSMFkTA8',
 	'profile': 'profil',
+	'pp': 'profil',
 	'edit-profile': 'https://docs.google.com/document/d/1Rw3iPQPOCEOUOB8BrgImoyNzDoYbZrSg_Z0aQieyMyg/edit?usp=sharing',
 	'edit-profil': 'edit-profile',
 	'new-profil': 'edit-profile',
