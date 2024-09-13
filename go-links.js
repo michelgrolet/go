@@ -13,6 +13,8 @@ const goLinks = {
 	'gh': 'github',
 	// photo
 	'tarifs-photo': 'https://photographe.michelgrolet.fr/tarifs',
+	// lvx
+	'programme-meute-2024-2025':'https://drive.google.com/file/d/1fEvFKwM_-WL1nqh-x2bHNzxysIfHbJ_I/view?usp=sharing',
 	// perso misc
 	'calendar': 'https://calendar.google.com/calendar/embed?src=Z3JvbGV0QGdvb2dsZS5jb20&src=bDBwMHNjOW1obWtqOXBydHR2ZWplZnRicjFraWtiZGNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=bWljaGVsZ3JvbGV0QGdtYWlsLmNvbQ&src=bWljaGVsQGdldG91dC5zcG9ydA&ctz=Europe/Paris',
 	'oo': 'calendar',
