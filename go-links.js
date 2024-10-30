@@ -13,6 +13,7 @@ const goLinks = {
 	'gh': 'github',
 	// photo
 	'tarifs-photo': 'https://photographe.michelgrolet.fr/tarifs',
+	'write-a-review': 'https://g.page/r/CVwqEhz2dmeMEBM/review',
 	// lvx
 	'programme-meute-2024-2025':'https://drive.google.com/file/d/1APaKU42Mcxv7Z04g7zIBCVu3f_zyULyJ/view?usp=sharing',
 	// perso misc
