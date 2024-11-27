@@ -23,7 +23,6 @@ const goLinks = {
 	'calendar-sf': 'https://calendar.google.com/calendar/embed?src=Z3JvbGV0QGdvb2dsZS5jb20&src=bDBwMHNjOW1obWtqOXBydHR2ZWplZnRicjFraWtiZGNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=bWljaGVsZ3JvbGV0QGdtYWlsLmNvbQ&src=bWljaGVsQGdldG91dC5zcG9ydA&ctz=America/Los_Angeles',
 	'oo-sf': 'calendar-sf',
 	'denaro': 'https://michelgrolet.notion.site/Denaro-a23a0dcbebce4f7c80cd7f17ad5c0078',
-	'islam': 'https://drive.google.com/file/d/172MvsrDKxzeINuGkWMYg6a7D9RMvFkHR/view?usp=sharing',
 	'profil': 'https://photos.app.goo.gl/maDYfXWnCPSMFkTA8',
 	'profile': 'profil',
 	'pp': 'profil',
