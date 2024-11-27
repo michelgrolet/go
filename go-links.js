@@ -40,7 +40,7 @@ const goLinks = {
   };
 
 function redirect() {
-    const basePath = 'LiteLinker'; // repository name
+    const basePath = 'go'; // repository name
     let path = window.location.pathname.substr(1); // get the part after the initial slash
 
     if (path === 'links') return; // Prevent redirect on /links
@@ -53,7 +53,7 @@ function redirect() {
     if (redirectURL) {
         window.location.href = redirectURL;
     } else {
-        window.location.href = `https://www.getout.sport/coming-soon`;
+        window.location.href = `https://michelgrolet.fr/?msg=This+link+does+not+exist.&url=${encodeURIComponent(path)}`;
     }
 }
 
@@ -80,7 +80,7 @@ http.createServer((req, res) => {
         res.end('404 Not Found');
     }
 }).listen(80, () => {
-    console.log('Server is running at http://go.getout.sport/');
+    console.log('Server is running at http://go.grolet.fr');
 });
 
 // Call redirect function on page load
